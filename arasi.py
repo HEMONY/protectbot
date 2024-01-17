@@ -4,7 +4,7 @@ from akad.ttypes import Message
 from datetime import datetime
 import json,sys,atexit,time,codecs,timeit
 botStart = time.time()
-cl = LINE("Es3lZF84ST8Im3D39CM3.Qp4h2VwCAdsgafSJuPDFuW.2bc6l5StVcmo41EscLZzWV7vQ7aFMdlZ31PP2dPbnvQ=")
+cl = LINE("pqyKwTqygsQP9iY09jkOsgCpqCDxBAewFVk9H39lYVexRliPmf09qZfsk1O6Ax+sirwsfoUarTU3LfEQfWnRJnmbR+blfUCgWo9mfeDCTKqbOXyeOnilkpskm2haWikX11d5EKetaZjEOBUu5YRMbAdB04t89/1O/w1cDnyilFU=")
 channelToken = cl.getChannelResult()
 cl.log("Auth Token : " + str(cl.authToken))
 print ("======登入成功=====")
@@ -13,7 +13,7 @@ settingsOpen = codecs.open("temp.json","r","utf-8")
 settings = json.load(settingsOpen)
 clMID = cl.profile.mid
 KAC=[cl]
-admin=['u85ee80cfb293599510d0c17ab25a5c98', 'u72e36ec4d3a1c6b3b5b4a3654eead14a', 'u8efc93824990b63d86eebb930ab97360',clMID]
+admin=['U72530e2b27b8c118a146490740cb77b8', 'hemo__5555',clMID]
 msg_dict = {}
 bl = [""]
 def cTime_to_datetime(unixtime):
