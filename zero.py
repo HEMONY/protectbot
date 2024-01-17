@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE("EsTGiMIUveUMkNSmdcD8.HE6aZ7ktwzuq0mf6SLPCMa.W3AO+ym6fLWKeOSMFH7AIHHzH6f9ePyjGL+Kbr0CDiw=")
+cl = LINE("pqyKwTqygsQP9iY09jkOsgCpqCDxBAewFVk9H39lYVexRliPmf09qZfsk1O6Ax+sirwsfoUarTU3LfEQfWnRJnmbR+blfUCgWo9mfeDCTKqbOXyeOnilkpskm2haWikX11d5EKetaZjEOBUu5YRMbAdB04t89/1O/w1cDnyilFU=")
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
@@ -26,7 +26,7 @@ clMID = cl.profile.mid
 myProfile["displayName"] = clProfile.displayName
 myProfile["statusMessage"] = clProfile.statusMessage
 myProfile["pictureStatus"] = clProfile.pictureStatus
-admin=['u85ee80cfb293599510d0c17ab25a5c98', 'u72e36ec4d3a1c6b3b5b4a3654eead14a', 'u8efc93824990b63d86eebb930ab97360',clMID]
+admin=['U72530e2b27b8c118a146490740cb77b8', 'hemo__5555',clMID]
 msg_dict = {}
 bl = [""]
 def cTime_to_datetime(unixtime):
